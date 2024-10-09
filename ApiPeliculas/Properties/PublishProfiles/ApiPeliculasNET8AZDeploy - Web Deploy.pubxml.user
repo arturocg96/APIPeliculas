@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6UPYIksRC0eWvwUaN1s+hAAAAAACAAAAAAAQZgAAAAEAACAAAADfEB2/aVdf3fNMZ5u2yHgLzp89GjkypJAoJ5YYE2BH2AAAAAAOgAAAAAIAACAAAABC0I8dgnWHtqrHmtz5SgNr6BtEtdOZh2a9V4exoEb9tYAAAABakoDzdZGz4jY4QB1pAEKGTePz37JDANYurwFW71YcUHzImaLDDPhoF7S1SQUPN4oXGdR28DHq8HNVgAizXH+jVm0cN1wrGeN715feI7gH2UU9GdMpLNBMk+mzfpTKPKEKzidBByR2/wJeLGN4osY45Fc5TV8DOWGrhPsoEC+Jv0AAAAD7tyKic0UNmm88mT5SNhNYJcY/ZLb16peftvI3CGJw05jeIAkaPbj341DjA+xW+gvI+awiuz+DdxAPLQfA9lR0</EncryptedPassword>
+    <History>True|2024-06-20T18:51:15.3338865Z||;True|2024-06-20T13:45:20.8571227-05:00||;True|2024-06-20T13:43:43.2491901-05:00||;True|2024-06-20T13:33:51.2281066-05:00||;True|2024-06-20T13:27:48.6783622-05:00||;False|2024-06-20T13:24:23.3364041-05:00||;False|2024-06-20T13:21:39.5327223-05:00||;True|2024-06-20T13:20:02.9120082-05:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ConexionSql">
+      <Value>Server=tcp:render2api.database.windows.net,1433%3bInitial Catalog=ApiPeliculasNET8AZ%3bPersist Security Info=False%3bUser ID=render2apiweb%3bPassword=Admin123%2a%3bMultipleActiveResultSets=False%3bEncrypt=False%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ApiPeliculas.Data.ApplicationDbContext">
+      <Value>Server=tcp:render2api.database.windows.net,1433%3bInitial Catalog=ApiPeliculasNET8AZ%3bPersist Security Info=False%3bUser ID=render2apiweb%3bPassword=Admin123%2a%3bMultipleActiveResultSets=False%3bEncrypt=False%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

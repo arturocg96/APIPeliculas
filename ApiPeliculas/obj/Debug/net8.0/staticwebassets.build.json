@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "L+Ak95TItRZVDNRZ8pyd9UIndPhTUZ1IkmXMu1fphS8=",
+  "Source": "ApiPeliculas",
+  "BasePath": "_content/ApiPeliculas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ApiPeliculas\\wwwroot",
+      "Source": "ApiPeliculas",
+      "ContentRoot": "C:\\Users\\render2web\\Desktop\\Api_Curso\\ApiPeliculas\\ApiPeliculas\\wwwroot\\",
+      "BasePath": "_content/ApiPeliculas",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\render2web\\Desktop\\Api_Curso\\ApiPeliculas\\ApiPeliculas\\wwwroot\\ImagenesPeliculas\\02c37803d-abeb-4608-b662-c7d6d9b440fb.png",
+      "SourceId": "ApiPeliculas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\render2web\\Desktop\\Api_Curso\\ApiPeliculas\\ApiPeliculas\\wwwroot\\",
+      "BasePath": "_content/ApiPeliculas",
+      "RelativePath": "ImagenesPeliculas/02c37803d-abeb-4608-b662-c7d6d9b440fb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagenesPeliculas\\02c37803d-abeb-4608-b662-c7d6d9b440fb.png"
+    },
+    {
+      "Identity": "C:\\Users\\render2web\\Desktop\\Api_Curso\\ApiPeliculas\\ApiPeliculas\\wwwroot\\ImagenesPeliculas\\56bd8a5fc-8381-41ad-9667-0c1dc1875fcd.jpg",
+      "SourceId": "ApiPeliculas",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\render2web\\Desktop\\Api_Curso\\ApiPeliculas\\ApiPeliculas\\wwwroot\\",
+      "BasePath": "_content/ApiPeliculas",
+      "RelativePath": "ImagenesPeliculas/56bd8a5fc-8381-41ad-9667-0c1dc1875fcd.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ImagenesPeliculas\\56bd8a5fc-8381-41ad-9667-0c1dc1875fcd.jpg"
+    }
+  ]
+}
